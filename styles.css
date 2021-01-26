@@ -1,0 +1,38 @@
+.button-div, .button-div2 {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#button, #button2 {
+  height: 50px;
+  background: rgb(251, 255, 255);
+  border-radius: 5px;
+  font-family: 'Fraunces', serif;
+  font-weight: bolder;
+}
+
+#data, #data2 {
+  width: 80%;
+  margin-left: 10%;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 25%;
+  background: rgb(196, 205, 255);
+  font-size: 2vh;
+}
+
+body {
+  background: rgb(236, 230, 252);
+}
+
+
+@media only screen and (min-width: 1200px){
+  #data, #data2{
+    font-size: 4vh;
+    margin-top: 5%;
+  }
+}
+
