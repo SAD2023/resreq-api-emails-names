@@ -28,6 +28,13 @@ body {
   background: rgb(236, 230, 252);
 }
 
+@media only screen and (min-width: 768px){
+  #data, #data2{
+    font-size: 4vh;
+    margin-top: 10%;
+  }
+}
+
 
 @media only screen and (min-width: 1200px){
   #data, #data2{
@@ -35,4 +42,5 @@ body {
     margin-top: 5%;
   }
 }
+
 
